@@ -24,6 +24,7 @@
 		04D2F89D29AC6FCE00285E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D2F8A029AC6FCE00285E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D2F8A229AC6FCE00285E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D2F8A929AD38DA00285E1E /* ForSwiftUi.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForSwiftUi.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		04D2F88829AC6FCC00285E1E = {
 			isa = PBXGroup;
 			children = (
+				04D2F8A929AD38DA00285E1E /* ForSwiftUi.playground */,
 				04D2F89329AC6FCC00285E1E /* MasterCook */,
 				04D2F89229AC6FCC00285E1E /* Products */,
 			);
