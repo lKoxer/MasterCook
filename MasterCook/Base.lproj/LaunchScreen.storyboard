@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,15 +14,80 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="U4C-cM-YvF">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Effect" translatesAutoresizingMaskIntoConstraints="NO" id="LJJ-jb-eKy">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cook #WithMe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e1-HP-Uf0">
+                                <rect key="frame" x="27.666666666666657" y="511.33333333333331" width="338" height="133.66666666666669"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find best recipes for cooking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMC-gf-0fr">
+                                <rect key="frame" x="72" y="662" width="249" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100k+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qhj-i9-Dkf">
+                                <rect key="frame" x="107" y="60" width="49" height="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium recipes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6t-dT-nbL">
+                                <rect key="frame" x="155" y="60" width="122" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Star" translatesAutoresizingMaskIntoConstraints="NO" id="hjL-qT-2Q3">
+                                <rect key="frame" x="86" y="65.333333333333329" width="12" height="13"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LJJ-jb-eKy" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8aE-oF-W7l"/>
+                            <constraint firstAttribute="bottom" secondItem="AMC-gf-0fr" secondAttribute="bottom" constant="170" id="BZ1-kz-dRE"/>
+                            <constraint firstItem="b6t-dT-nbL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="60" id="H2L-Qg-wwg"/>
+                            <constraint firstItem="U4C-cM-YvF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Juw-zR-LB8"/>
+                            <constraint firstAttribute="trailing" secondItem="AMC-gf-0fr" secondAttribute="trailing" constant="72" id="KSs-BD-IA2"/>
+                            <constraint firstItem="LJJ-jb-eKy" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="MaI-zA-1HV"/>
+                            <constraint firstAttribute="bottom" secondItem="U4C-cM-YvF" secondAttribute="bottom" id="MdQ-Id-2FX"/>
+                            <constraint firstAttribute="bottom" secondItem="LJJ-jb-eKy" secondAttribute="bottom" id="Oqr-VV-BVN"/>
+                            <constraint firstItem="hjL-qT-2Q3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="65.200000000000003" id="QGx-w2-PIM"/>
+                            <constraint firstItem="Qhj-i9-Dkf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="60" id="RQo-IP-6AN"/>
+                            <constraint firstAttribute="trailing" secondItem="LJJ-jb-eKy" secondAttribute="trailing" id="SCj-Cp-XJ2"/>
+                            <constraint firstItem="hjL-qT-2Q3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="86" id="V8M-QU-ILj"/>
+                            <constraint firstItem="AMC-gf-0fr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="72" id="ZQe-dA-6Ed"/>
+                            <constraint firstAttribute="trailing" secondItem="4e1-HP-Uf0" secondAttribute="trailing" constant="27.5" id="aOH-Lk-pes"/>
+                            <constraint firstItem="b6t-dT-nbL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="155" id="ccS-Ad-Gcd"/>
+                            <constraint firstItem="U4C-cM-YvF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="dG6-U0-6XG"/>
+                            <constraint firstItem="4e1-HP-Uf0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="27.5" id="fAx-sF-PF1"/>
+                            <constraint firstItem="U4C-cM-YvF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fp2-c1-6ql"/>
+                            <constraint firstItem="Qhj-i9-Dkf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="107" id="iFl-2T-XrP"/>
+                            <constraint firstAttribute="bottom" secondItem="4e1-HP-Uf0" secondAttribute="bottom" constant="207" id="pfv-Ed-2dA"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Effect" width="375" height="416"/>
+        <image name="Star" width="12" height="13"/>
+        <image name="background" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
