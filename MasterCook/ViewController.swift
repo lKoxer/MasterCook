@@ -8,13 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var qwe = NetworkManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        //test
+        view.backgroundColor = .cyan
+        qwe.getAllRecipes()
     }
-
-
 }
 
