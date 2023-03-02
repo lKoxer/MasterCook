@@ -12,6 +12,8 @@
 		04D2F89929AC6FCC00285E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2F89829AC6FCC00285E1E /* ViewController.swift */; };
 		04D2F89E29AC6FCE00285E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D2F89D29AC6FCE00285E1E /* Assets.xcassets */; };
 		04D2F8A129AC6FCE00285E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D2F89F29AC6FCE00285E1E /* LaunchScreen.storyboard */; };
+		5101525629B0ECDC005CFDFC /* ObjectAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5101525529B0ECDC005CFDFC /* ObjectAdd.swift */; };
+		518DB68529AFB815009E2D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518DB68429AFB815009E2D53 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		04D2F8A029AC6FCE00285E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D2F8A229AC6FCE00285E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D2F8A929AD38DA00285E1E /* ForSwiftUi.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForSwiftUi.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5101525529B0ECDC005CFDFC /* ObjectAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObjectAdd.swift; path = MasterCook/ObjectAdd.swift; sourceTree = SOURCE_ROOT; };
+		518DB68429AFB815009E2D53 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				04D2F8A829AC6FEE00285E1E /* New Group */,
 				04D2F89429AC6FCC00285E1E /* AppDelegate.swift */,
+				5101525529B0ECDC005CFDFC /* ObjectAdd.swift */,
 				04D2F89629AC6FCC00285E1E /* SceneDelegate.swift */,
 				04D2F89829AC6FCC00285E1E /* ViewController.swift */,
-				04D2F89D29AC6FCE00285E1E /* Assets.xcassets */,
+				518DB68429AFB815009E2D53 /* Main.storyboard */,
 				04D2F89F29AC6FCE00285E1E /* LaunchScreen.storyboard */,
+				04D2F89D29AC6FCE00285E1E /* Assets.xcassets */,
 				04D2F8A229AC6FCE00285E1E /* Info.plist */,
 			);
 			path = MasterCook;
@@ -132,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518DB68529AFB815009E2D53 /* Main.storyboard in Resources */,
 				04D2F8A129AC6FCE00285E1E /* LaunchScreen.storyboard in Resources */,
 				04D2F89E29AC6FCE00285E1E /* Assets.xcassets in Resources */,
 			);
@@ -147,6 +154,7 @@
 				04D2F89929AC6FCC00285E1E /* ViewController.swift in Sources */,
 				04D2F89529AC6FCC00285E1E /* AppDelegate.swift in Sources */,
 				04D2F89729AC6FCC00285E1E /* SceneDelegate.swift in Sources */,
+				5101525629B0ECDC005CFDFC /* ObjectAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
